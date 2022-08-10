@@ -17,7 +17,7 @@ export async function getPatientList(currentPage: number) {
 
   return result;
 }
-
+//test
 export async function getPatientsByName(name: string, currentPage: number) {
   const result: any = axios
     .get(
